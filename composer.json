@@ -13,5 +13,11 @@
             "name": "Jonatan Santos",
             "email": "jonataned13@gmail.com"
         }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jonatan-dev-98/adapter-whois-php"
+        }
     ]
 }
