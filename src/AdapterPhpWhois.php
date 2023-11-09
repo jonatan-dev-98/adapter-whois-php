@@ -2,6 +2,7 @@
 
 namespace Whois\AdapterPhpWhois;
 
+use Exception;
 use JsonException;
 
 @include('whois.main.php');
@@ -18,15 +19,15 @@ class AdapterPhpWhois
     /**
      * @throws \Throwable
      */
-    public function getInformations(string $domain)
+    public function getDomainInformations(string $domain)
     {
-        
         try {
+            
             $result = $this->service->Lookup(query: $domain, is_utf: false);
-        } catch (\Throwable $th) {
-            throw new JsonException($th->getMessage());
-        }
+            return $result;
 
-        return $result;
+        } catch (\Throwable $th) {
+            return throw new Exception($th->getMessage());
+        }
     }
 }
