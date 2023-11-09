@@ -1,11 +1,11 @@
 {
-    "name": "phpwhois/adapter-whois-php",
+    "name": "whois/adapter-whois-php",
     "description": "Uma adaptação da biblioteca phpWhois - Todos os direitos e créditos são para os autores: www.phpwhois.org",
     "type": "library",
     "require": {},
     "autoload": {
         "psr-4": {
-            "PhpWhois\\AdpterPhpWhois\\": "src/"
+            "Whois\\AdpterPhpWhois\\": "src/"
         }
     },
     "authors": [
