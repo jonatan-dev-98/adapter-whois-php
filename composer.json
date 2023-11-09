@@ -5,7 +5,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Whois\\AdpterPhpWhois\\": "src/"
+            "Whois\\AdapterPhpWhois\\": "src/"
         }
     },
     "authors": [

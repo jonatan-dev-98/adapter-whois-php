@@ -1,12 +1,12 @@
 <?php
 
-namespace Whois\AdpterPhpWhois;
+namespace Whois\AdapterPhpWhois;
 
 use JsonException;
 
 @include('whois.main.php');
 
-class AdpterPhpWhois
+class AdapterPhpWhois
 {
     private \Whois $service;
 
